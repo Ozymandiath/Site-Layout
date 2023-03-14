@@ -127,3 +127,14 @@ header img {
     left: -16px;
     top: 298px;
 }
+
+/* section__partners */
+
+.section__partners {
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0;
+    gap: 40px;
+}
