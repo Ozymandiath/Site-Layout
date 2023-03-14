@@ -43,14 +43,20 @@ header img {
     white-space: nowrap;
 }
 
+.contain {
+    max-width: 1440px;
+    padding: 0 70px;
+    margin: 0 auto;
+}
+
 /* section__sellNFT */
 
 .section__sellNFT {
     display: flex;
     flex-flow: column;
     position: relative;
-    max-width: 1440px;
-    margin: 0 auto;
+
+
     padding-bottom: 83px;
 }
 
@@ -137,4 +143,59 @@ header img {
     justify-content: center;
     padding: 40px 0;
     gap: 40px;
+}
+
+/* section__team */
+
+.section__team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__team h2 {
+    padding: 80px 0 24px;
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+}
+
+.section__team p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+}
+
+.team__w {
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.card__team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px 0;
+}
+
+.card__team h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.card__team p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    color: #532C59;
+
 }
